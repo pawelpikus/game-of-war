@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of War</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <nav>
+                <img src="./img/logo.png" alt="logo game of war" class="logo-img">
+                <h1 class="title">game of war</h1>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                
+                <button class="game-btn deck-btn">New Deck</button>
+                <button class="game-btn draw-card-btn">Draw Cards</button>
+            </div>
+            <h3 class="winner-label">Click on New Deck to start the game!</h3>
+            <h3 class="cards-remaining">Remaining cards: 52</h3>
+            <div class="cards-container">
+                <div class="card-placeholder"></div>
+                <div class="card-placeholder"></div>
+            </div>
+            <div class="container score-container">
+                <h3 class="player-score">Player One score: <span class="score1">0</span></h3>
+                <h3 class="player-score">Player Two score: <span class="score2">0</span></h3>
+
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </div>
+</body>
+</html>
