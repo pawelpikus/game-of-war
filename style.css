@@ -9,7 +9,7 @@ body{
     background-image: url("./img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:left ;
+    background-position: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
@@ -43,7 +43,8 @@ h1{
 }
 
 .container,
-.cards-container{ 
+.cards-container,
+.score-container{ 
     margin-bottom: 1.5em;
     display: flex;
     justify-content: center;
@@ -51,7 +52,6 @@ h1{
 }
 
 .score-container{
-    justify-content: center;
     gap: 1em;
 }
 
@@ -80,9 +80,15 @@ nav{
     margin-bottom: .5em;
 }
 
+.card,
+.card-placeholder{
+    box-shadow: 8px 6px 11px 6px rgba(0,0,0,0.48);
+}
+
 .card{
     max-width: 100%;
     height: 210px;
+    border-radius: 10px;
     
 }
 
@@ -113,7 +119,7 @@ nav{
     color: whitesmoke;
     background-color: transparent;
     border-radius: 5px;
-    box-shadow: 8px 6px 11px 6px rgba(0,0,0,0.48);;
+    box-shadow: 8px 6px 11px 6px rgba(0,0,0,0.48);
 
 }
 
@@ -127,4 +133,48 @@ nav{
     font-size: 1rem;
     color: whitesmoke;
       
+}
+
+@media(min-width: 700px){
+    .main-container{
+        justify-content: flex-start;
+    }
+
+    h1{
+        font-size: 5rem;
+        bottom: 70px;
+    }
+
+    .logo-img{
+        width: 260px;
+    }
+
+    .game-btn{
+        font-size: 1.5rem;
+    }
+
+    .winner-label{
+        font-size: 2rem;
+    }
+    .cards-remaining{
+        font-size: 1.5rem;
+    }
+
+    .card-placeholder{
+        width: 250px;
+        height: 350px;
+        
+    }
+
+    .card{
+        max-width: 100%;
+        height: 350px;
+    }
+
+    .player-score{
+        font-size: 1.5rem;
+    }
+    .score-container{
+        gap: 2em;
+    }
 }
