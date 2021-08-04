@@ -31,9 +31,9 @@ User is able to:
 
 ### Screenshots
 
-<img src="./img/screenshot1.png" alt="desktop solution" width="600px"/>
+<img src="/img/screenshot1.PNG" alt="desktop solution" width="600px"/>
 
-<img src="./img/screenshot2.png" alt="mobile solution" width="300px"/>
+<img src="/img/screenshot2.PNG" alt="mobile solution" width="300px"/>
 
 ### Links
 
