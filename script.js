@@ -32,7 +32,6 @@ async function handleNewDeck(){
 async function handleDrawCards(){
     const res = await fetch(`https://deckofcardsapi.com/api/deck/${deck_Id}/draw/?count=2`);
     const data = await res.json();
-        
     cardsRemaining = data.remaining;            
     let view = '';
             
