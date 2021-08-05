@@ -62,7 +62,7 @@ In future projects I'm going to focus more on complex layouts and using APIs.
 ### Useful resources
 
 - [Kevin Powell | CSS Evangelist](https://www.kevinpowell.co/) - My favourite teacher for RWD and CSS as a whole. Highly recommend it!
-- [Deck of cards API] (https://deckofcardsapi.com/) - nice, free to use API if you want to build a card game
+- [Deck of cards API](https://deckofcardsapi.com/) - nice, free to use API if you want to build a card game
 
 
 
